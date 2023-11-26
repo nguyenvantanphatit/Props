@@ -1,0 +1,73 @@
+.container-contact {
+  margin: 0 10%;
+}
+.container-contact h3 {
+  font-size: 64px;
+  line-height: 64px;
+}
+.container-contact p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  max-width: 80%;
+}
+.contact-button {
+  display: flex;
+}
+.contact-button .chat {
+  background: red;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid #ff4b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+.contact-button .call {
+  background: red;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid #ff4b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 48px;
+}
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 15%;
+}
+.contact-input {
+  display: flex;
+  flex-direction: column;
+}
+.contact-input input{
+  height: 40px;
+  padding: 0 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.contact-input textarea{
+  height: 120px;
+  padding: 0 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+.contact-button .submit {
+  background: red;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid #ff4b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}

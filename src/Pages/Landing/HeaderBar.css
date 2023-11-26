@@ -1,0 +1,20 @@
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 36px;
+}
+.button button {
+  background: red;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid #ff4b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}

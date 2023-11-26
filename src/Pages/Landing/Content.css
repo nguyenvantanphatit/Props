@@ -1,0 +1,54 @@
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content-left h1 {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.content-left p {
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+    font-weight: 600;
+    max-width: 70%;
+}
+.content-left .content-button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.content-left .content-button .shop-now {
+  background: red;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid #ff4b2b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+.content-left .content-button .catelory {
+  background: white;
+  padding: 12px 54px;
+  border-radius: 12px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 50px;
+}
+.brand-icon {
+    display: flex;
+    gap: 18px;
+}
+.content-right img {
+    object-fit: cover;
+}

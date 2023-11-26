@@ -1,0 +1,18 @@
+.container-footer {
+  display: flex;
+}
+.logo-footer img {
+  width: 50%;
+  margin-left: 20%;
+}
+.container-footer .desc-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-ul {
+  list-style: none;
+}
+.desc-footer {
+    gap: 150px;
+}
